@@ -1,0 +1,16 @@
+{
+  "name": "optimai-lite-node-bot", // Nama paket
+  "version": "1.0.0", // Versi paket
+  "description": "Bot pengumpulan ping dan hadiah otomatis untuk Optimai Lite Node", // Deskripsi paket
+  "main": "index.js", // File utama yang akan dijalankan
+  "scripts": {
+    "start": "node index.js" // Skrip untuk memulai aplikasi
+  },
+  "author": "getcakedieyoungx", // Penulis paket
+  "license": "MIT", // Lisensi paket
+  "dependencies": {
+    "axios": "^1.6.7", // Dependensi axios untuk melakukan permintaan HTTP
+    "dotenv": "^16.4.1", // Dependensi dotenv untuk mengelola variabel lingkungan
+    "node-cron": "^3.0.3" // Dependensi node-cron untuk penjadwalan tugas
+  }
+}
